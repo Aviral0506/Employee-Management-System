@@ -1,19 +1,16 @@
 import React, { useState } from 'react';
 
-const Login = () => {
+const Login = ({handleLogin}) => {
+  
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false); 
 
   const submitHandler = (e) => {
     e.preventDefault();
-
-    if (!email.includes('@')) {
-      alert('Invalid email format');
-      return;
-    }
-
-    console.log('Logging in with:', { email, password });
+    handleLogin(email, password)
+    setEmail("")
+    setPassword("")
   };
 
   return (
