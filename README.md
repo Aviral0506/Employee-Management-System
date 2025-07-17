@@ -1,12 +1,40 @@
-# React + Vite
+# 👨‍💼 Employee Management System (EMS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18.x-blue?logo=react)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-blue?logo=tailwindcss)
+![Status](https://img.shields.io/badge/Status-In_Progress-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Currently, two official plugins are available:
+> A sleek and responsive **Employee Management System** (EMS) built with **React** and **Tailwind CSS**, featuring role-based dashboards for Admins and Employees.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔥 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 **Login Authentication** with role distinction
+- 🧑‍💼 **Admin Dashboard**: Admin-only access with enhanced controls
+- 👨‍💻 **Employee Dashboard**: Personalized view for employees
+- 💡 **Modern UI/UX** built with Tailwind CSS
+- ⚛️ **Component-based React architecture**
+- 📱 **Responsive Design** — works across all devices
+- ⚙️ Clean and maintainable codebase
+
+---
+
+## 🧰 Tech Stack
+
+| Technology     | Description                            |
+|----------------|----------------------------------------|
+| **React.js**   | Frontend UI library                    |
+| **Tailwind CSS**| Utility-first CSS framework           |
+| **Vite**       | Lightning-fast dev server and bundler |
+| **React Hooks**| For state and side-effect management   |
+
+---
+
+## 🚀 Getting Started
+
+### 🖥️ Clone the Repository
+```bash
+git clone https://github.com/Aviral0506/Employee-Management-System.git
+cd Employee-Management-System
